@@ -18,6 +18,27 @@
   }
 }
 
+@font-face {
+  font-family: 'Anton';
+  src: url('../styles/Anton/Anton-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dangrek';
+  src: url('../styles/Dangrek/Dangrek-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graduate';
+  src: url('../styles/Graduate/Graduate-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer utilities {
   .pb-safe {
     padding-bottom: env(safe-area-inset-bottom);
@@ -31,9 +52,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Dangrek', Arial, sans-serif; /* Updated font family */
     font-size: 1.0rem;
-    background-color: #a3ec8f;
+    background-color: #fafafa;
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);

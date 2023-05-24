@@ -20,7 +20,7 @@ import { Toast } from "./components/Toast";
 import { parseIneligibility } from "./utils/parseIneligibility";
 import { useToast } from "./hooks/useToast";
 import StyledButton from "./components/Button";
-import Counter from "./components/Counter-orig";
+import Counter from "./components/Counter";
 import PikaCard from "./components/PikaCard";
 //import presale1CSV from "./presale1.csv";
 
